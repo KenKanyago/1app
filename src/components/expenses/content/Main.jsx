@@ -1,5 +1,5 @@
-import React from 'react'
-import './components/content/expenses.css'
+import './expenses.css'
+
 
 export default function Main() {
   return (
