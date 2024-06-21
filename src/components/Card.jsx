@@ -1,10 +1,9 @@
-import React from 'react'
 
 export default function Card({title, text, color}) {
   return (
-    <div>
-                <h4 className={`text-xl font-semibold mb-2"`}>{title}</h4>
-                <p className={`text-2xl font-bold text-${color}`}>{text}</p>
-            </div>
-  )
+    <div className={`border p-4 rounded-lg shadow-md`}>
+            <h2 className={`text-${color} font-bold`}>{title}</h2>
+            <p>{text}{color}</p>
+        </div>
+  );
 }

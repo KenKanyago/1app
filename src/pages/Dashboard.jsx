@@ -13,10 +13,10 @@ export default function Dashboard() {
         </div>
             
     {/* Contenet */}
-        <div className="grid grid-cols-1 grid-rows-3 gap-6 w-screen bg-gray-100">
+        <div className="grid grid-cols-1 grid-rows-3 gap-6 w-screen bg-gray-200">
 
     {/* Summery */}
-            <div className="grid grid-cols-1  md:grid-cols-3 gap-4">
+            <div className="flex flex-row space-between gap-4">
                 <Summery />
             </div>
     {/* Wallet, how to save article and ACC bal */}
