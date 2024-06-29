@@ -36,7 +36,7 @@ export default function Sidebar(){
             </li>
 
             <li>
-              <Link to='/transactions' className="flex items-center px-4 py-2 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
+              <Link to='/expense-tracker'>
                 <span>Expense Tracker</span>
               </Link>
             </li>

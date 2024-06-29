@@ -1,6 +1,6 @@
-import Sidebar from "./Sidebar"
+
 import Navbar from "./Navbar"
-//import Dashboard from "../pages/Dashboard"
+
 
 export default function Layout({children}) {
   return (

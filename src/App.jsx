@@ -18,6 +18,7 @@ function App() {
       <Route path='/transactions' element={<Layout><Transactions/></Layout>}/>
       <Route path='/income' element={<Layout><Income/></Layout>}/>
       <Route path='/expenses' element={<Layout><Expenses/></Layout>}/>
+      <Route path='/expense-tracker' element={<Layout><ExpenseTracker/></Layout>}/>
       
     </Routes>
   </BrowserRouter>
